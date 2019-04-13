@@ -1,5 +1,6 @@
 #!/usr/bin/python3.6
 # -*- coding: UTF-8 -*-
+import Basic
 
 str = '''
 1.字符串处理
@@ -10,4 +11,7 @@ str = '''
 6.如何将list转换为tuple
 7.字典和集合的使用
 '''
-print(str)
+# 字符串处理
+Basic.str_Judge()
+
+# 数字格式化处理
