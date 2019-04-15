@@ -66,3 +66,18 @@ def str_Judge():
     print(S.islower())  # S中的字母是否全是小写
     print(S.isupper())  # S中的字母是否便是大写
     print(S.istitle())  # S是否是首字母大写的
+
+# 数字左填充0
+def Number_LFill():
+    n = '123'
+    print(n.zfill(5));
+    n = 123
+    s = '%05d' % n
+    print(s)
+
+# 数字保留两位小数
+def Number_Fixed():
+    n = 123.126
+    print('%.2f' % n)
+    print(round(n,2))
+    print(format(n,'.2f'))

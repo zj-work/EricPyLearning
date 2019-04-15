@@ -11,7 +11,7 @@ str = '''
 6.如何将list转换为tuple
 7.字典和集合的使用
 '''
-# 字符串处理
-Basic.str_Judge()
+
+Basic.Number_Fixed()
 
 # 数字格式化处理
